@@ -16,8 +16,7 @@ module.exports = (basepath) => {
     const {value: NextProxy, next} = nextProxy
     const {fixture: {url = '/'}} = rest
 
-    return <ServerLocation url={addBasepath(url)}>
-      <NextProxy {...rest} nextProxy={next()} />
-    </ServerLocation>
+    return React.createElement(ServerLocation, {url: addBasepath(url)},
+      React.createElement(NextProxy, {...rest, nextProxy: next()}))
   }
 }
