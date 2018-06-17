@@ -14,5 +14,13 @@
     "@reach/router"
   ],
   "author": "Ronald Chen",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/concept-not-found/react-cosmos-reach-router-proxy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/concept-not-found/react-cosmos-reach-router-proxy/issues"
+  },
+  "homepage": "https://github.com/concept-not-found/react-cosmos-reach-router-proxy#readme"
 }
