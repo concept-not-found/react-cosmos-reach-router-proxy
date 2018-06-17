@@ -14,6 +14,10 @@ Make sure to use the installation instructions or else the react router proxy wi
  * `basepath` optional string of basepath
 
 ### Installation
+```bash
+npm install --save-dev react-cosmos-reach-router-proxy
+```
+
 `cosmos.proxies.js`
 ```js
 import createReachRouterProxy from 'react-cosmos-reach-router-proxy'
