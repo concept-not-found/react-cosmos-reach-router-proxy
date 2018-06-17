@@ -1,4 +1,4 @@
-react-cosmos @reach/router proxy
+[react-cosmos](https://github.com/react-cosmos/react-cosmos) [@reach/router](https://github.com/reach/router) proxy
 ================================
 
 ### Usage in fixture
