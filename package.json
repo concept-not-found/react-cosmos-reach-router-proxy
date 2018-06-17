@@ -1,9 +1,8 @@
 {
   "name": "react-cosmos-reach-router-proxy",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "react-cosmos proxy for @reach/router",
   "main": "index.js",
-  "module": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

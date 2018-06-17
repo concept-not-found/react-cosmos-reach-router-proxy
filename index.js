@@ -1,7 +1,7 @@
-import React from 'react'
-import {ServerLocation} from '@reach/router'
+const React = require('react')
+const {ServerLocation} = require('@reach/router')
 
-export default (basepath) => {
+module.exports = (basepath) => {
   function addBasepath (url) {
     if (!basepath) {
       return url
